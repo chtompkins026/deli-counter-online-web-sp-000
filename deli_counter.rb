@@ -16,5 +16,5 @@ def take_a_number(array, name)
   array.push(name)
   count = array.size 
   
-  puts "Welcome, #{name}. You are number #{line.index(name)} in line."
+  puts "Welcome, #{name}. You are number #{array.index(name)} in line."
 end 
