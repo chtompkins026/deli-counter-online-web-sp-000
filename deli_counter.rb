@@ -8,6 +8,6 @@ def line(array)
     array.each_with_index do |name, idx| 
      new_line.push("#{idx + 1}. #{name} ")
     end 
-    puts new_line.join("")
+    puts new_line[0...-1].join("")
   end 
 end 
