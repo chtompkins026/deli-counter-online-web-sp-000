@@ -2,12 +2,12 @@
 
 line = Array.new 
 
-def line(line)
+def line(array)
   new_line = ["The line is currently:"] 
-  if line.empty? 
+  if array.empty? 
     puts "The line is currently empty."
   else 
-    line.each_with_index do |name, idx| 
+    array.each_with_index do |name, idx| 
      new_line.push(" #{idx + 1}. #{name}")
     end 
     puts new_line.join("")
