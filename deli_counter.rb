@@ -7,7 +7,7 @@ def line(array)
   else 
     array.each_with_index do |name, idx| 
      new_line.push("#{idx}. #{name} ")
-     puts new_line
+     puts new_line.join
     end 
   end 
 end 
