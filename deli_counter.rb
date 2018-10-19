@@ -17,4 +17,6 @@ end
 def take_a_number(line, name)
   line.push(name)
   count = line.size 
+  
+  puts "Welcome, #{name}. You are number #{line.index(name)} in line "
 end 
