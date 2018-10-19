@@ -4,7 +4,7 @@ line = Array.new
 
 def line(line)
   new_line = ["The line is currently:"] 
-  if array.empty? 
+  if line.empty? 
     puts "The line is currently empty."
   else 
     line.each_with_index do |name, idx| 
