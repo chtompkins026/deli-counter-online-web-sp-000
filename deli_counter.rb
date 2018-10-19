@@ -21,5 +21,5 @@ end
 
 def now_serving(array)
   current = array.unshift 
-  puts "Currently service #{array.unshift}."
+  puts "Currently service #{array.shift}."
 end 
