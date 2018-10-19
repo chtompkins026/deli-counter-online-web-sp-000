@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  new_line = [] 
+  new_line = ["The line is currently: "] 
   if array.empty? 
     puts "The line is currently empty."
   else 
