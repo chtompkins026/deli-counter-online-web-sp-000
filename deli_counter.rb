@@ -1,6 +1,8 @@
 # Write your code here.
 
-def line(array)
+line = Array.new
+
+def line(line)
   new_line = ["The line is currently:"] 
   if array.empty? 
     puts "The line is currently empty."
@@ -11,3 +13,4 @@ def line(array)
     puts new_line.join("")
   end 
 end 
+
